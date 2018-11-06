@@ -9,3 +9,11 @@ output: github_document
     - What did they do? What did they find? Why does it matter? (ideally in R Markdown document).
     
 - Insert relevant images    
+![alt text](student-testbed/Screen Shot 2018-11-06 at 9.56.52 AM.png)
+![alt text](student-testbed/Screen Shot 2018-11-06 at 9.57.00 AM.png)
+![alt text](student-testbed/Screen Shot 2018-11-06 at 9.57.18 AM.png)
+![alt text](student-testbed/Screen Shot 2018-11-06 at 9.57.29 AM.png)
+![alt text](student-testbed/Screen Shot 2018-11-06 at 9.57.38 AM.png)
+![alt text](student-testbed/Screen Shot 2018-11-06 at 9.57.46 AM.png)
+![alt text](student-testbed/Screen Shot 2018-11-06 at 9.57.58 AM.png)
+![alt text](student-testbed/Screen Shot 2018-11-06 at 9.58.06 AM.png)
