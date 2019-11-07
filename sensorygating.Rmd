@@ -21,6 +21,8 @@ P50 - suppresses auditory stimuli after 50 ms
 N100 - triggers attention to stimuli  
 P200 - allocates attention to auditory stimuli 
 
+*Note*: "P" refers to a positive-going voltage peak; "N" refers to a negative-going peak. The number refers to the milliseconds following a stimulus when the given ERP component reaches its peak.
+
 # Purpose  
 
 Do adolescents and young adults with ASD have sensory gating deficits? 
@@ -41,7 +43,8 @@ There are no group correlates between P50 and P200 sensory gating.
   
 ## N100 Gating Deficits in participants with ASD  
 
-![EEG Sensory Gating](img/EEGsensorygating.png) 
+![Figure 1: EEG Sensory Gating](https://ars.els-cdn.com/content/image/1-s2.0-S0278584619303847-gr1_lrg.jpg) 
+<!-- ![EEG Sensory Gating](img/EEGsensorygating.png)  -->
 
 # Discussion 
 
