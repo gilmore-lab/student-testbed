@@ -20,5 +20,5 @@ My PIRE study aims to find out exactly when the illusory vowel occurs.
 
 # Methods 
 
-The study will take place in Granada, Spain.  There will be 60 participants: 30 near-monolingual Spanish speakers and 30 Spanish-English bilinguals. 
+The study will take place in Granada, Spain.  There will be 60 participants: 30 near-monolingual Spanish speakers and 30 Spanish-English bilinguals. We will test the illusory vowel perception using a discrimination paradigm.  The task will involve gated stimuli of Spanish words, each cut off at a specific point in the word.  
 
