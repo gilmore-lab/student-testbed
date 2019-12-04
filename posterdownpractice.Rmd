@@ -1,0 +1,24 @@
+---
+title: "eSpecifically When Does the Illusory Vowel Appear"
+author: "Emily H"
+date: "12/4/2019"
+output: 
+  posterdown::posterdown_html:
+   columns: 3
+   rows: 2
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = FALSE)
+```
+
+#  What is the illusory vowel? 
+
+The illusory vowel occurs when native Spanish speakers hear words that start with the consonant pattern /#sC/.  Previous research has indicated that when native Spanish speakers learn English, a language in which approximately 6% of all words begin with /#sC/, they hallucinate that the word actually begins with /esC/. For example, when someone says "school", they hear "eschool". Research has shown that as Spanish speakers become more fluent in English, the illusory vowel diminishes.  
+
+My PIRE study aims to find out exactly when the illusory vowel occurs.  
+
+# Methods 
+
+The study will take place in Granada, Spain.  There will be 60 participants: 30 near-monolingual Spanish speakers and 30 Spanish-English bilinguals. 
+
