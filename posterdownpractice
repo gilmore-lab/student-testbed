@@ -1,25 +1,72 @@
 ---
+poster_height: "24in"
+poster_width: "35in" 
+font_family: "Palatino" 
+
 title: "eSpecifically When Does the Illusory Vowel Appear"
-author: "Emily H"
-date: "12/4/2019"
+author: 
+  name: "Emily Herman"
+
 output: 
   posterdown::posterdown_html:
-   columns: 3
-   rows: 2
+    pandoc_args: --mathjax 
+    number_sections: false 
+    
 ---
 
 ```{r setup, include=FALSE}
 knitr::opts_chunk$set(echo = FALSE)
 ```
 
+
 #  What is the illusory vowel? 
 
-The illusory vowel occurs when native Spanish speakers hear words that start with the consonant pattern /#sC/.  Previous research has indicated that when native Spanish speakers learn English, a language in which approximately 6% of all words begin with /#sC/, they hallucinate that the word actually begins with /esC/. For example, when someone says "school", they hear "eschool". Research has shown that as Spanish speakers become more fluent in English, the illusory vowel diminishes.  
+The illusory vowel occurs when native Spanish speakers hear words that start with the consonant pattern /#sC/.  Previous research has indicated that when native Spanish speakers learn English, a language in which approximately 6% of all words begin with /#sC/, they hallucinate that the word actually begins with /esC/. (Carlson, 2019) For example, when someone says "school", they hear "eschool". Research has shown that as Spanish speakers become more fluent in English, the illusory vowel diminishes.  
 
 My PIRE study aims to find out exactly when the illusory vowel occurs.  
 
 # Methods 
 
-The study will take place in Granada, Spain.  There will be 60 participants: 30 near-monolingual Spanish speakers and 30 Spanish-English bilinguals. We will test the illusory vowel perception using a discrimination paradigm.  The task will involve gated stimuli of Spanish words, each cut off at a specific point in the word.  
+The study will take place in Granada, Spain.  There will be 60 participants: 30 near-monolingual Spanish speakers and 30 Spanish-English bilinguals. 
+
+We will test the illusory vowel perception using a discrimination paradigm.  The task will involve gated stimuli of Spanish words, each cut off at a specific point in the word.  
 
 The stimuli will be presented as pairs in a randomized order within the 2IAX task. One pairs are as follows: [s] vs. [es], [sC] vs. [esC], [sCV] vs. [esCV], [sCVC] vs. [esCVC], and [sCVCV] vs. [esCVCV].  The [s] vs. [es] variant will be the control, since many words in Spanish start with sV, the s variant should not induce the illusory vowel perception.  
+
+# Example 
+
+/escoge/ (he/she/it chooses) -> [eskohe] 
+
+In the 2IAX task, the pairs will be presented as follows: 
+
+|no vowel| vowel|
+|---|---|
+|[s]   |  [es]| 
+|[sk]   |  [esk]| 
+|[sko]  |  [esko]| 
+|[skoh] |  [eskoh]| 
+|[skohe] |  [eskohe] | 
+
+# Predictions 
+
+With the shortest gates, we expect the decision to be made based on low-level auditory detail, because the memory demands are low and therefore discrimination should be good. As more auditory material is presented and memory demands increase, participants must rely on more abstract phonological representations, and even lexical information. We expect that as auditory information is added, discrimination performance will decline. This decline may occur earlier in the near-monolingual participants.  
+
+# Budget and IRB
+
+We plan to recruit 60 participants for 90-minute testing sessions. Each participant will be compensated 10€ per hour, for a total cost of 900€, corresponding to $990 at the current exchange rate.  There are no fees for using the research facilities.  
+
+The research will be covered under Dr. Carlson’s IRB protocol 11758.  
+
+# Educational Translation 
+
+The results from this study will aid in understanding the perception and production of speech in second language learners. With the information gathered, I plan to work with teachers in both Spain and the US to help them understand the perception and production of second language learners, which can lead to a better understanding of how to teach foreign languages.  
+
+# Presenting the Data
+
+I plan to present my results at the PIRE presentations in the fall semester of 2020. I also plan to present at the Young Scholars Speaker Series, the Penn State Undergraduate Exhibition, and PSUxLing.  My PIRE advisor and I also plan to submit abstracts to conferences in the linguistic field and for publication in academic journals.  
+
+# References 
+
+CARLSON, M. T. (2019). Now you hear it, now you don't: Malleable illusory vowel effects in Spanish–English bilinguals. Bilingualism: Language and Cognition 22(5), 1101-1122. 
+
+
