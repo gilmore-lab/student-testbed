@@ -4,27 +4,33 @@ author: "Emily Herman and Rachel Chang"
 date: "`r Sys.time()`"
 
 output: 
-html_document: 
-  toc: true
-  toc_depth: 5 
-  toc_float: true 
-  self_contained: false 
-  code_folding: hide 
-
+  html_document: 
+    toc: true
+    toc_depth: 5 
+    toc_float: true 
+    self_contained: false 
+    code_folding: hide 
 ---
 
 ```{r setup, include=FALSE}
 knitr::opts_chunk$set(echo = TRUE)
 ```
+
 # What is sensory gating?  
 
 P50 - suppresses auditory stimuli after 50 ms  
 N100 - triggers attention to stimuli  
 P200 - allocates attention to auditory stimuli 
 
+*Note*: "P" refers to a positive-going voltage peak; "N" refers to a negative-going peak. The number refers to the milliseconds following a stimulus when the given ERP component reaches its peak.
+
 # Purpose  
 
-Do adolescents and young adults with ASD have sensory gating deficits?  
+Do adolescents and young adults with ASD have sensory gating deficits? 
+
+Discussion of:
+
+Chien, Y.-L., Hsieh, M. H., & Gau, S. S.-F. (2019). P50-N100-P200 sensory gating deficits in adolescents and young adults with autism spectrum disorders. *Progress in Neuro-psychopharmacology & Biological Psychiatry*, *95*, 109683. Retrieved from http://dx.doi.org/10.1016/j.pnpbp.2019.109683
 
 # Participants  
 
@@ -36,11 +42,10 @@ Do adolescents and young adults with ASD have sensory gating deficits?
 
 There are no group correlates between P50 and P200 sensory gating.  
   
-
 ## N100 Gating Deficits in participants with ASD  
 
-![EEG Sensory Gating](img/EEGsensorygating.png) 
-
+![Figure 1: EEG Sensory Gating](https://ars.els-cdn.com/content/image/1-s2.0-S0278584619303847-gr1_lrg.jpg) 
+<!-- ![EEG Sensory Gating](img/EEGsensorygating.png)  -->
 
 # Discussion 
 
@@ -59,5 +64,4 @@ Lack of P50 suppression had negative associations with social deficits in ASD, t
 #### 3. Do you think the study is reproducible?  
 
 #### 4. What other neurological disorders might have sensory gating deficits?  
-
 
