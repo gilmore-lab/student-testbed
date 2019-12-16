@@ -1,0 +1,22 @@
+---
+title: "Psych 260 Review"
+author: "Emily H"
+title_textsize: "70pt" 
+author_textsize: "1.17em"
+
+output:
+   posterdown::posterdown_betterport: 
+   self_contained: false 
+   pandoc_args: --mathjax
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+```
+
+# OCD  
+
+Concordance Rates: 63-87%  
+Brain functions: abnormal activity in the frontostriatal circuits, increased gray matter in the basal ganglia, reduced gray matter in the cingulate cortices. The most severe cases occur with lower serotonin levels.  
+Treatment: Antidepressants and SSRIs; cognitive behavioral therapy 
+

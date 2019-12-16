@@ -1,28 +1,63 @@
 ---
-title: "SensoryGating"
-output: html_document
+title: "Sensory Gating"
+author: "Emily Herman and Rachel Chang" 
+date: "`r Sys.time()`"
+
+output: 
+html_document: 
+  toc: true
+  toc_depth: 5 
+  toc_float: true 
+  self_contained: false 
+  code_folding: hide 
+
 ---
 
 ```{r setup, include=FALSE}
 knitr::opts_chunk$set(echo = TRUE)
 ```
+# What is sensory gating?  
 
-## R Markdown
+P50 - suppresses auditory stimuli after 50 ms  
+N100 - triggers attention to stimuli  
+P200 - allocates attention to auditory stimuli 
 
-This is an R Markdown document. Markdown is a simple formatting syntax for authoring HTML, PDF, and MS Word documents. For more details on using R Markdown see <http://rmarkdown.rstudio.com>.
+# Purpose  
 
-When you click the **Knit** button a document will be generated that includes both content as well as the output of any embedded R code chunks within the document. You can embed an R code chunk like this:
+Do adolescents and young adults with ASD have sensory gating deficits?  
 
-```{r cars}
-summary(cars)
-```
+# Participants  
 
-## Including Plots
+![Participant results](img/table1_participants.png)
 
-You can also embed plots, for example:
+# Results 
 
-```{r pressure, echo=FALSE}
-plot(pressure)
-```
+![Comparison of P50, N100, and P200 parameters](img/table2_results.png)
 
-Note that the `echo = FALSE` parameter was added to the code chunk to prevent printing of the R code that generated the plot.
+There are no group correlates between P50 and P200 sensory gating.  
+  
+
+## N100 Gating Deficits in participants with ASD  
+
+![EEG Sensory Gating](img/EEGsensorygating.png) 
+
+
+# Discussion 
+
+Independent of ASD diagnosis, N100 gating deficits were strongly correlated with sensory sensitivity. N100 sensory gates were the best indicator of an ASD diagnosis.  
+
+P200 gating was correlated with attention switching difficulty in ASD participants, even though there was no difference in the gating itself between the two groups.  
+
+Lack of P50 suppression had negative associations with social deficits in ASD, though the difference between the two groups was not significant enough to differentiate between the TDC and ASD groups. 
+
+# Group Discussion Questions  
+
+#### 1. Why do you think N100 gating had a strong correlation to sensory sensitivity? 
+
+#### 2. What does the correlation between the P200 and attention switching difficulty imply?  
+
+#### 3. Do you think the study is reproducible?  
+
+#### 4. What other neurological disorders might have sensory gating deficits?  
+
+
