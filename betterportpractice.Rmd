@@ -4,10 +4,10 @@ author: "Emily H"
 title_textsize: "70pt" 
 author_textsize: "1.17em"
 
-output:
-   posterdown::posterdown_betterport: 
-   self_contained: false 
-   pandoc_args: --mathjax
+output: 
+  posterdown::posterdown_html:
+    pandoc_args: --mathjax 
+    number_sections: false 
 ---
 
 ```{r setup, include=FALSE}
