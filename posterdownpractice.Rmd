@@ -3,13 +3,15 @@ poster_height: "24in"
 poster_width: "35in" 
 font_family: "Palatino" 
 
-title: "eSpecifically what did you hear? Tracking illusory vowel effects in a first and second language"
+title: "eSpecifically what did you hear? Tracking the illusory vowel"
 author: 
-  name: "Emily Herman, Angelica Brill, Dr. Mathew Carlson, and Dr. Annie Olmstead"
-affil: 1 
+  - name: Emily Herman
+  - name: Matthew Carlson
 affiliation:
   address: Department of Spanish, Italian, and Portuguese Linguistics, Penn State
-
+title_textsize: "70pt"
+author_textsize: "45pt"
+affiliation_textsize: "35pt"
 
 output: 
   posterdown::posterdown_html:
@@ -24,31 +26,18 @@ knitr::opts_chunk$set(echo = FALSE)
 
 
 #  What is the illusory vowel?  
-.  
-.  
-.  
-
-The illusory vowel occurs when native Spanish speakers hear words that start with the consonant pattern /#sC/. Research has shown that as Spanish speakers become more fluent in English, the illusory vowel diminishes.  
-.  
-.  
-.  
+The illusory vowel is a phenomenon in which native Spanish speakers hear a vowel at the beginning of words that start with the consonant pattern /#sC/. This is due to the fact that no words in Spanish start with /#sC/. This is reflected even in borrowed words from other languages, such as /ski/ -> /eski/. Research has shown that as Spanish speakers become more fluent in English, the illusory vowel diminishes.  
 
 # Reasoning 
-
-Each experiment answers a different question about the illusory vowel. The two big questions are: is the illusory vowel auditory or linguistic perception; does accented speech affect the illusory vowel perception? 
+The purpose of this study is to determine whether the illusory vowel is auditory or linguistic perception. Although the illusory vowel perception phenomenon is well-documented, the level of perception has not been determined. Knowing whether the illusory vowel is perceived at the auditory or linguistic level will aid future educators in the process of teaching ESL/EFL. 
 
 # Methods  
-.  
-.  
-.  
-We will recruit 60 participants for each experiment in Granada, Spain. Experiment 1 will use a 2IAX task. Experiment 2 will use a EnglDTE task and LexTale. Both will use language surveys. 
-.  
-.  
-.  
-   
+We will recruit 60 participants for the experiment in Granada, Spain. Participants will be a mix of near-monolingual and Spanish-English bilingual individuals. 
+<br/>  
+The experiment will consist of a 2IAX task. Participants will be asked to detect [sC] vs. [esC] stimuli with varying levels of lexical information presented. LexTale will be used to determine the English proficiency level of the participants. Previous studies have indicated that the higher English proficiency, the less the illusory vowel is perceived. There will also be an LHQ. 
 
-# Experiment 1 Stimuli Example
-
+# Stimuli Example
+  
 /escoge/ (he/she/it chooses) -> [eskohe] 
 
 In the 2IAX task, the pairs will be presented as follows: 
@@ -60,40 +49,22 @@ In the 2IAX task, the pairs will be presented as follows:
 |[sko]  |  [esko]| 
 |[skoh] |  [eskoh]| 
 |[skohe] |  [eskohe] | 
+<br/>  
 
 # Predictions for Experiment 1 
-.  
-.  
-.  
+<br/>
 As auditory information is added, discrimination performance will decline. 
-.  
-.  
-.  
+<br/> 
 
-# Experiment 2 Stimuli Example  
-|Non-accented English| Accented English|
-|---|---|
-|[skul]|  [eskul]|  
-|[stop]|  [estop]|  
-|[spot]|  [espot]|  
-
-# Predictions for Experiment 2  
-.  
-.  
-.  
-The accented words will not be accepted as "real" words.  
-.  
-.  
-.   
+![](img/PIREpredictions.png)  
 
 
 # Educational Translation  
-
+<br/>  
 The results from these experiments will aid in understanding the perception and production of speech in second language learners. With the information gathered, we plan to work with teachers in both Spain and the US to help them understand the perception and production of second language learners, which can lead to a better understanding of how to teach foreign languages.  
-
+<br/>  
 
 # References 
-
+<br/>  
 CARLSON, M. T. (2019). Now you hear it, now you don't: Malleable illusory vowel effects in Spanish–English bilinguals. Bilingualism: Language and Cognition 22(5), 1101-1122. 
-
-
+<br/>
