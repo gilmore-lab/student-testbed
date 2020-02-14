@@ -1,11 +1,11 @@
 ---
-title: "Psych 260 Review"
+title: "PIRE Project 2020"
 author: "Emily H"
 title_textsize: "70pt" 
 author_textsize: "1.17em"
 
 output: 
-  posterdown::posterdown_html:
+  posterdown::posterdown_betterport: 
     pandoc_args: --mathjax 
     number_sections: false 
 ---
