@@ -1,0 +1,38 @@
+---
+title: "Testing the diagrammeR package"
+author: "Rick Gilmore"
+date: "`r Sys.time()`"
+output: html_document
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+```
+
+```{r}
+DiagrammeR::grViz("
+digraph boxes_and_circles {
+
+  # a 'graph' statement
+  graph [overlap = true, fontsize = 10]
+
+  # several 'node' statements
+  node [shape = box,
+        fontname = Helvetica]
+  move_eyes; move_head; move_body; obj_move; carry
+
+  node [shape = circle,
+        fixedsize = true,
+        width = 0.9] // sets as circles
+  optic_flow; vestib; kines
+
+  # several 'edge' statements
+  move_eyes->optic_flow move_head->optic_flow move_body->optic_flow
+  move_head->vestib move_body->vestib
+  move_head->kines move_body->kines
+  obj_move->optic_flow
+  carry->optic_flow carry->vestib
+}
+")
+```
+
