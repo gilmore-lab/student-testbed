@@ -58,7 +58,16 @@ In the 2IAX task, the pairs will be presented as follows:
 <br/>
 As auditory information is added, discrimination performance will decline. 
 
-![](img/PIREpredictions.png)  
+```{r}
+library(ggplot2)
+
+df <- data.frame(word = c("es", "esk", "esko", "eskoh", "eskohe"), 
+                 value = c(100, 75, 50, 50, 50))
+
+ggplot2::ggplot(df, aes(word, value)) + geom_point() 
+
+```
+
 
 <br/>  
 
